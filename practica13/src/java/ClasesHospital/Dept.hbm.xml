@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 13-ene-2014 20:21:43 by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="ClasesHospital.Dept" table="DEPT" schema="SYSTEM">
+        <id name="deptNo" type="byte">
+            <column name="DEPT_NO" precision="2" scale="0" />
+            <generator class="assigned" />
+        </id>
+        <property name="dnombre" type="string">
+            <column name="DNOMBRE" length="14" />
+        </property>
+        <property name="loc" type="string">
+            <column name="LOC" length="14" />
+        </property>
+    </class>
+</hibernate-mapping>

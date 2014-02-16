@@ -1,0 +1,26 @@
+.tablaacc {
+	
+	margin: 20px auto 20px auto;
+	padding: 1px 10px 0px 0px;
+	width: 600px;
+	text-align: left;
+}
+.tabladept {
+	border-top: #232650 1px solid;
+	
+	margin: 20px auto 20px auto;
+	padding: 1px 10px 0px 0px;
+	width: 600px;
+	text-align: left;
+}
+.tablapel {
+	border-top: #232650 1px solid;
+	border-bottom: #232650 1px solid;
+	margin: 20px auto 20px auto;
+	padding: 1px 10px 0px 0px;
+	width: 600px;
+	text-align: left;
+}
+.tablapel th {
+    background-color: #ffecd0;
+}
